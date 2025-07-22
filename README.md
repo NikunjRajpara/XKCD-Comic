@@ -10,23 +10,10 @@ A PHP-based web application that allows users to register their email, verify it
 - 🔑 6-digit email verification code system
 - 📨 Sends random XKCD comics to verified users
 - 🔗 Unsubscribe via email verification
-- 🗂️ Email storage using `registered_emails.txt` (flat file)
+- 🗂️ Email storage using `registered_emails.txt`
 
 ---
 
-## 📂 Folder Structure
-
-src/
-├── functions.php
-├── index.php
-├── unsubscribe.php
-├── send_xkcd.php
-├── registered_emails.txt
-├── pending_verifications.json
-├── pending_unsubs.json
-
-
----
 
 ## ⚙️ How It Works
 
@@ -62,8 +49,11 @@ src/
 bash
 php src/send_xkcd.php
 
-📩 Contact
-Made with ❤️ by Nikunj Rajpara
+---
+
+📩 Made with ❤️ by Nikunj Rajpara
+
+---
 
 📜 License
 This project is open-source and available under the MIT License.
