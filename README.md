@@ -29,7 +29,7 @@ A PHP-based web application that allows users to register their email, verify it
 
 - **PHP**
 - **Gmail SMTP** (for sending HTML emails)
-- **HTML** (for formatting email content)
+- **HTML** (for formatting)
 - **XKCD API** (for fetching comic data)
 
 ---
